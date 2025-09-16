@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Apoyar el proyecto - Donar</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background: #f9f9f9;
+      padding: 40px;
+    }
+    h1 {
+      color: #4CAF50;
+    }
+    p {
+      max-width: 600px;
+      margin: auto;
+      line-height: 1.6;
+    }
+    .donar-btn {
+      margin-top: 25px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Menú de navegación -->
+  <nav style="background:#4CAF50; padding:12px; text-align:center;">
+    <a href="index.html" style="color:white; margin:0 15px; text-decoration:none; font-weight:bold;">Inicio</a>
+    <a href="tutorial.html" style="color:white; margin:0 15px; text-decoration:none; font-weight:bold;">Tutorial</a>
+    <a href="donar.html" style="color:white; margin:0 15px; text-decoration:none; font-weight:bold;">Donar</a>
+    <a href="privacidad.html" style="color:white; margin:0 15px; text-decoration:none; font-weight:bold;">Privacidad</a>
+  </nav>
+
+  <h1>💚 Apoyá este proyecto</h1>
+  <p>Si nuestra aplicación para comprimir imágenes te resultó útil, podés apoyarnos con una donación.  
+  Esto nos ayuda a seguir mejorando y manteniendo la herramienta gratuita para todos.</p>
+
+  <div class="donar-btn">
+    <!-- Botón oficial de PayPal -->
+    <form action="https://www.paypal.com/donate" method="post" target="_blank">
+      <!-- Reemplazá el siguiente email por tu cuenta de PayPal -->
+      <input type="hidden" name="business" value="TU-CORREO@PAYPAL.COM">
+      <input type="hidden" name="currency_code" value="USD">
+      <input type="hidden" name="item_name" value="Donación para el proyecto Optimiza Imágenes">
+      <input type="submit" value="Donar con PayPal 💳" 
+             style="background:#0070ba; color:white; padding:12px 20px; 
+                    border:none; border-radius:6px; font-size:16px; cursor:pointer;">
+    </form>
+  </div>
+
+</body>
+</html>
